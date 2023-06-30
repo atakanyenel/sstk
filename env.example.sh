@@ -6,3 +6,4 @@
 export NODE_BASE_URL="/stk"
 export HTTP_SERVER_PORT=8010
 export USE_LOCAL=1
+export NODE_ENV=dev
