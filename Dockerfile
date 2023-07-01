@@ -2,7 +2,7 @@ FROM node:10-alpine
 
 #ARG NODE_ENV=prod
 
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash git python build-base
 
 # Copy git source
 COPY . /src
